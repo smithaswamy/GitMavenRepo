@@ -16,7 +16,7 @@ public class DriverTest {
 		WebDriver driver=new FirefoxDriver();*/
 		
 		WebDriver driver;
-		System.setProperty("webdriver.chrome.driver","D:\\spare_webinar\\Webinar\\selenium\\jar_drivers\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:\\spare_webinar\\Webinar\\selenium\\jar_drivers\\newversion\\chromedriver_win32\\chromedriver.exe");
 		//create new instance firefox driver
 		 driver = new ChromeDriver();
 		String myUrl="http://www.toolsqa.com";
